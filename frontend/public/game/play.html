@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spider-Man Game - Play Now!</title>
+	<link rel="shortcut icon" href="images/standing.png" />
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			background: linear-gradient(135deg, #c41e3a 0%, #0066cc 100%);
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+		}
+
+		.game-container {
+			background: rgba(0, 0, 0, 0.3);
+			border-radius: 15px;
+			padding: 30px;
+			box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+			text-align: center;
+		}
+
+		h1 {
+			color: white;
+			font-size: 3em;
+			margin-bottom: 20px;
+			text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+			font-weight: bold;
+		}
+
+		.subtitle {
+			color: white;
+			font-size: 1.2em;
+			margin-bottom: 30px;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+		}
+
+		iframe {
+			border: 5px solid rgba(255, 255, 255, 0.2);
+			border-radius: 10px;
+			box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+		}
+
+		.instructions {
+			margin-top: 20px;
+			color: white;
+			text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+		}
+
+		.instructions h2 {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+
+		.instructions p {
+			font-size: 1em;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+<body>
+	<div class="game-container">
+		<h1>🕷️ SPIDER-MAN GAME 🕷️</h1>
+		<p class="subtitle">Swing into action and defeat the villains!</p>
+		
+		<iframe src="index.html" width="750" height="500" frameborder="0"></iframe>
+		
+		<div class="instructions">
+			<h2>How to Play</h2>
+			<p>Use arrow keys to move, spacebar to shoot webs, and ESC to pause. Defeat enemies and collect web ammo!</p>
+		</div>
+	</div>
+</body>
+</html>
